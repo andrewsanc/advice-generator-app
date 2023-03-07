@@ -1,3 +1,9 @@
+import AdviceCard from "./Components/AdviceCard";
+
 export default function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <AdviceCard />
+    </div>
+  );
 }
