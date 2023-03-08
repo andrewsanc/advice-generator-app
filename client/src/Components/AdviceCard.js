@@ -21,7 +21,7 @@ export default function AdviceCard() {
         <h5>Loading...</h5>
       ) : (
         <>
-          <h5>advice #{advice.id}</h5>
+          <h5>ADVICE #{advice.id}</h5>
           <h4>{advice.advice}</h4>
           <img src='/images/pattern-divider-desktop.svg' />
           <button onClick={() => fetchData()} className='dice-btn'>
